@@ -238,7 +238,7 @@ header {
 			overflow: hidden;
 			margin-top: 50px;
 			.why_us_row {
-				width: 90%;
+				width: 100%;
 				overflow: hidden;
 				margin-top: 40px;
 				.why_us_item {
@@ -269,23 +269,20 @@ header {
 						float: left;
 					}
 					.why_us_text {
-						margin-left: 180px;
+						margin-left: 120px;
 						h3 {
 							font-size: 25px;
 							color: $title-color;
-							text-align: left;
 						}
 						p {
 							margin-top: 20px;
-							margin-left: 0px;
+							margin-left: auto;
 							margin-right: auto;
 							text-align: center;
 							font-weight: lighter;
-							font-size: 18px;
-							width: 80%;
+							width: 60%;
 							color: $article-color;
 							line-height: 1.2;
-							text-align: left;
 						}
 					}
 				}
